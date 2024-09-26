@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>我的博客</title>
+    <link>https://yourusername.github.io/my-rss-feed/</link>
+    <description>我的博客 RSS 订阅源</description>
+    <item>
+      <title>如何使用 ACP Template</title>
+      <link>https://medium.com/@moyo.oyegunle/use-advanced-cluster-management-acm-templates-to-manage-users-groups-and-namespaces-e07a280f84c5</link>
+      <description>这是我的第一篇文章</description>
+      <pubDate>Mon, 06 Sep 2021 12:00:00 GMT</pubDate>
+    </item>
+    <!-- 添加更多 <item> 元素来包含更多文章 -->
+  </channel>
+</rss>
