@@ -4,6 +4,11 @@
     <title>我的博客</title>
     <link>https://yourusername.github.io/my-rss-feed/</link>
     <description>我的博客 RSS 订阅源</description>
+
+    <follow_challenge>
+      <feedId>62080294672416768</feedId>
+      <userId>59875101284335616</userId>
+    </follow_challenge>
     <item>
       <title>如何使用 ACP Template</title>
       <link>https://medium.com/@moyo.oyegunle/use-advanced-cluster-management-acm-templates-to-manage-users-groups-and-namespaces-e07a280f84c5</link>
