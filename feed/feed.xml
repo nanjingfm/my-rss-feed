@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+  <channel>
+    <title>我的博客</title>
+    <link>https://yourusername.github.io/my-rss-feed/</link>
+    <description>我的博客 RSS 订阅源</description>
+    <lastBuildDate>Fri, 27 Sep 2024 08:39:34 -0000</lastBuildDate>
+    <item>
+      <title>The sentinel toothpaste: a useful programming technique for everyday life2</title>
+      <link>https://dunkels.com/adam/sentinel-toothpaste2</link>
+      <description>The sentinel toothpaste: a useful programming technique for everyday life2</description>
+      <pubDate>Fri, 27 Sep 2024 08:39:34 -0000</pubDate>
+    </item>
+    <item>
+      <title>The sentinel toothpaste: a useful programming technique for everyday life</title>
+      <link>https://dunkels.com/adam/sentinel-toothpaste</link>
+      <description>The sentinel toothpaste: a useful programming technique for everyday life</description>
+      <pubDate>Fri, 27 Sep 2024 08:23:12 -0000</pubDate>
+    </item>
+    <item>
+      <title>如何使用 ACP Template</title>
+      <link>https://medium.com/@moyo.oyegunle/use-advanced-cluster-management-acm-templates-to-manage-users-groups-and-namespaces-e07a280f84c5</link>
+      <description>这是我的第一篇文章</description>
+      <pubDate>Mon, 06 Sep 2021 12:00:00 -0000</pubDate>
+    </item>
+    <follow_challenge>
+      <feedId>62080294672416768</feedId>
+      <userId>59875101284335616</userId>
+    </follow_challenge>
+  </channel>
+</rss>
