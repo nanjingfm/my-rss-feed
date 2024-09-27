@@ -12,7 +12,6 @@ def parse_date(date_str):
 def update_rss(feed_file,url, title):
     # 读取现有的 RSS 文件
     feed = feedparser.parse(feed_file)
-    print(feed)
     
     # 创建新的 RSS feed
     new_feed = feedgenerator.Rss201rev2Feed(
