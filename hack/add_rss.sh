@@ -1,5 +1,4 @@
 #!/bin/bash
-set -x
 
 # 获取脚本的绝对路径
 SCRIPT_PATH=$(cd $(dirname $0); pwd)
@@ -14,6 +13,6 @@ yq -p=xml -o=xml '
 }
 ' $FEED_FILE > temp.xml && mv temp.xml $FEED_FILE
 
-git add feed.xml
+git add $FEED_FILE
 git commit -m "Add new article: $2"
 git push
