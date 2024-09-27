@@ -6,7 +6,7 @@ title=$2
 if [ -z "$link" ] || [ -z "$title" ]; then
   link=$(gum input --prompt "Enter the link: ")
   suggest_title=$(curl -sL $link | xmllint --html --xpath "//title/text()" - 2>/dev/null)
-  title=$(gum input --prompt "Enter the title: " --default="$suggest_title")
+  title=$(gum input --prompt "Enter the title: " --value="$suggest_title")
 fi
 
 # 获取脚本的绝对路径

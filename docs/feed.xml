@@ -4,7 +4,13 @@
     <title>我的博客</title>
     <link>https://yourusername.github.io/my-rss-feed/</link>
     <description>我的博客 RSS 订阅源</description>
-    <lastBuildDate>Fri, 27 Sep 2024 09:17:53 -0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Sep 2024 09:25:44 -0000</lastBuildDate>
+    <item>
+      <title>0924政策大礼包|当前宏观经济形势与热点分析</title>
+      <link>https://www.bilibili.com/video/BV1WixjeCEtw</link>
+      <description>0924政策大礼包|当前宏观经济形势与热点分析</description>
+      <pubDate>Fri, 27 Sep 2024 09:25:44 -0000</pubDate>
+    </item>
     <item>
       <title>Usage: gum input [flags]
 
