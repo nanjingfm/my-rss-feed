@@ -11,7 +11,7 @@ def parse_date(date_str):
         return datetime.datetime(*date_str[:6])
     return date_str
 
-def update_rss(feed_file, url, title):
+def update_rss(feed_file, url, title, description):
     # 读取现有的 RSS 文件
     feed = feedparser.parse(feed_file)
     
@@ -27,7 +27,7 @@ def update_rss(feed_file, url, title):
         title=title,
         link=url,
         pubdate=datetime.datetime.now(),
-        description=title
+        description=description
     )
     
     # 添加现有文章
@@ -62,10 +62,11 @@ def update_rss(feed_file, url, title):
 
 if __name__ == '__main__':
     if len(sys.argv) != 4:
-        print("Usage: python update_rss.py <url> <title>")
+        print("Usage: python update_rss.py <url> <title> <description>")
         sys.exit(1)
     
     feed_file = sys.argv[1]
     url = sys.argv[2]
     title = sys.argv[3]
-    update_rss(feed_file, url, title)
+    description = sys.argv[4]
+    update_rss(feed_file, url, title, description)
