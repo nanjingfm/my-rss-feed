@@ -61,7 +61,7 @@ def update_rss(feed_file, url, title, description):
         print(f"发生未知错误：{str(e)}")
 
 if __name__ == '__main__':
-    if len(sys.argv) != 4:
+    if len(sys.argv) != 5:
         print("Usage: python update_rss.py <url> <title> <description>")
         sys.exit(1)
     
