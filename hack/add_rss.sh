@@ -23,6 +23,10 @@ description: $description
 
 EOF
 
+if [ -z "$description" ]; then
+  description=$title
+fi
+
 # 获取脚本的绝对路径
 SCRIPT_PATH=$(cd $(dirname $0); pwd)
 cd $SCRIPT_PATH/../
