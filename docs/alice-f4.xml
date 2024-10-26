@@ -4,7 +4,19 @@
     <title>feed-alice-f2</title>
     <link>https://yourusername.github.io/my-rss-feed/</link>
     <description>我的博客 RSS 订阅源</description>
-    <lastBuildDate>Fri, 27 Sep 2024 09:25:44 -0000</lastBuildDate>
+    <lastBuildDate>Sat, 26 Oct 2024 14:52:28 -0000</lastBuildDate>
+    <item>
+      <title>科技爱好者周刊（第 322 期）：内容行业的内幕</title>
+      <link>http://www.ruanyifeng.com/blog/2024/10/weekly-issue-322.html</link>
+      <description>科技爱好者周刊（第 322 期）：内容行业的内幕</description>
+      <pubDate>Sat, 26 Oct 2024 14:52:28 -0000</pubDate>
+    </item>
+    <item>
+      <title>aaa</title>
+      <link>http://abc</link>
+      <description>aaa</description>
+      <pubDate>Sat, 26 Oct 2024 14:49:27 -0000</pubDate>
+    </item>
     <item>
       <title>0924政策大礼包|当前宏观经济形势与热点分析</title>
       <link>https://www.bilibili.com/video/BV1WixjeCEtw</link>

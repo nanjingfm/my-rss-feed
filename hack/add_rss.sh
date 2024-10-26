@@ -13,16 +13,12 @@ fi
 SCRIPT_PATH=$(cd $(dirname $0); pwd)
 FEED_FILE=$SCRIPT_PATH/../docs/feed.xml
 
-python $SCRIPT_PATH/update_rss.py "$FEED_FILE" "$link" "$title"
-
-yq -p=xml -o=xml '
-.rss.channel.follow_challenge = {
-  "feedId": "62080294672416768",
-  "userId": "59875101284335616"
-}
-' $FEED_FILE > temp.xml && mv temp.xml $FEED_FILE
+# 获取 docs 下所有的xml文件
+for file in $(ls $SCRIPT_PATH/../docs/*.xml); do
+  python $SCRIPT_PATH/update_rss.py ${file} "$link" "$title"
+done
 
 cd $SCRIPT_PATH/../
-git add $FEED_FILE
+git add .
 git commit -m "Add new article: $title"
 git push
