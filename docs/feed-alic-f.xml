@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0">
   <channel>
-    <title>我的博客</title>
+    <title>feed-alice-f1</title>
     <link>https://yourusername.github.io/my-rss-feed/</link>
     <description>我的博客 RSS 订阅源</description>
     <lastBuildDate>Fri, 27 Sep 2024 09:25:44 -0000</lastBuildDate>
