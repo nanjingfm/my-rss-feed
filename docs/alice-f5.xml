@@ -4,7 +4,13 @@
     <title>feed-alice-f2</title>
     <link>https://yourusername.github.io/my-rss-feed/</link>
     <description>我的博客 RSS 订阅源</description>
-    <lastBuildDate>Sat, 26 Oct 2024 15:20:53 -0000</lastBuildDate>
+    <lastBuildDate>Wed, 30 Oct 2024 13:56:17 -0000</lastBuildDate>
+    <item>
+      <title>阮一峰的网络博客：傅盛回忆录</title>
+      <link>http://www.ruanyifeng.com/blog/2024/10/weekly-issue-321.html</link>
+      <description>傅盛是谁？1978年生于江西景德镇，2003年加入3721公司（后为奇虎360）。  2010年出任金山网络 CEO，2014年金山网络改名为猎豹移动，担任 CEO 至今。</description>
+      <pubDate>Wed, 30 Oct 2024 13:56:17 -0000</pubDate>
+    </item>
     <item>
       <title>如何限制容器的CPU使用量</title>
       <link>https://mp.weixin.qq.com/s/HzPJiXupQnM2XvMwkpRUww</link>
